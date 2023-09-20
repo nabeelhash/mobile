@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Serif 4:wght@400;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans 3:wght@400;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-p">
+      <button class="home-p-child" id="rectangleButton"></button>
+      <div class="home-p-item"></div>
+      <div class="home-p-inner"></div>
+      <b class="auto-headphones">Auto Headphones</b>
+      <b class="buy-now" id="buyNowText">
+        <p class="buy-now1">Buy Now</p>
+      </b>
+      <b class="learn-more">Learn More</b>
+      <div class="marketing-message-this">Marketing message this is Great.</div>
+      <b class="product-shot">Product Shot</b>
+      <button class="ellipse-parent" id="frameButton">
+        <div class="frame-child"></div>
+        <div class="div">+</div>
+      </button>
+      <div class="auto-headphones-parent">
+        <b class="auto-headphones1">Auto Headphones</b>
+        <div class="rectangle-parent">
+          <div class="frame-item"></div>
+          <img class="frame-inner" alt="" src="./public/line-15.svg" />
+
+          <img class="line-icon" alt="" src="./public/line-16.svg" />
+
+          <b class="product-shot1">Product Shot</b>
+          <b class="b">$299</b>
+          <div class="description-xxxx-xxx-container">
+            <p class="description">
+              <b>Description:</b>
+            </p>
+            <p class="xxxx-xxx-x">XXXX XXX X X</p>
+            <p class="xxxx-xxx-x">XXX XX X X X X X</p>
+            <p class="xxxx-xxx-x">XX X X XXX</p>
+            <p class="xxxx-xxx-x">XXXXXX XX X X.</p>
+          </div>
+        </div>
+      </div>
+      <img class="home-p-child1" alt="" src="./public/line-4.svg" />
+
+      <img class="home-p-child2" alt="" src="./public/line-5.svg" />
+
+      <img class="group-icon" alt="" src="./public/group-21.svg" />
+    </div>
+
+    <script>
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function (e) {
+          window.location.href = "./i-phone-8-1.html";
+        });
+      }
+      
+      var buyNowText = document.getElementById("buyNowText");
+      if (buyNowText) {
+        buyNowText.addEventListener("click", function (e) {
+          window.location.href = "./i-phone-8-1.html";
+        });
+      }
+      
+      var frameButton = document.getElementById("frameButton");
+      if (frameButton) {
+        frameButton.addEventListener("click", function (e) {
+          window.location.href = "./i-phone-8-2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

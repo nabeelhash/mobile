@@ -1,0 +1,130 @@
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 341px;
+  height: 46px;
+}
+.rectangle-wrapper {
+  position: relative;
+  width: 341px;
+  height: 46px;
+  z-index: 0;
+}
+.frame-child1,
+.frame-child2,
+.frame-child3 {
+  position: relative;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 341px;
+  height: 46px;
+  z-index: 1;
+}
+.frame-child2,
+.frame-child3 {
+  width: 161px;
+  z-index: 2;
+}
+.frame-child3 {
+  width: 153px;
+  z-index: 3;
+}
+.card-information,
+.cvc {
+  position: absolute;
+  margin: 0 !important;
+  top: 77px;
+  left: 13px;
+  line-height: 121.1%;
+  font-weight: 600;
+  z-index: 4;
+}
+.cvc {
+  top: 143px;
+  left: 207px;
+  z-index: 5;
+}
+.frame-parent {
+  position: absolute;
+  top: 349px;
+  left: 16px;
+  width: 342px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.auto-headphones2 {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  width: 188px;
+  cursor: pointer;
+}
+.iphone-8-2-child {
+  position: absolute;
+  top: 152px;
+  left: 20px;
+  width: 76px;
+  height: 68px;
+}
+.check-out {
+  position: absolute;
+  top: 96px;
+  left: 17px;
+  font-size: 30px;
+  line-height: 121.1%;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.iphone-8-2-item {
+  position: absolute;
+  top: 237.5px;
+  left: 20.5px;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 332px;
+  height: 3px;
+}
+.email,
+.mmyy {
+  position: absolute;
+  top: 359px;
+  left: 30px;
+  line-height: 121.1%;
+  font-weight: 600;
+}
+.mmyy {
+  top: 492px;
+  left: 29px;
+}
+.iphone-8-2-inner {
+  position: absolute;
+  top: 9px;
+  left: 260px;
+  width: 106.5px;
+  height: 30.3px;
+  cursor: pointer;
+}
+.iphone-8-2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 667px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-source-sans-3);
+}
